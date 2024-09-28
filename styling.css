@@ -3,7 +3,6 @@
 }
 
 body {
-    background-color: ;
     text-align: center;
     font-size: 14px;
     padding: 0px;
@@ -76,11 +75,11 @@ body {
     text-align: center;
     width: auto;
     height: 95vh;
-    margin: ;
     background-image: url(./Images/netflix.jpg);
     background-size: contain;
     background-blend-mode: darken;
     background-color: rgba(31, 1, 1, 0.8);
+    border-bottom: 1px solid #fafafa;
 }
 
 .firstSection h1 {
@@ -115,12 +114,12 @@ body {
     padding: 40px;
 }
 
-.subSection {
+.subSection1 {
     width: 85%;
     margin: auto;
 }
 
-.subSection h2 {
+.subSection1 h2 {
     font-size: 2.5em;
     text-align: left;
     color: white;
@@ -134,7 +133,7 @@ body {
 }
 
 .imageBox {
-
+    width: 100%;
 }
 
 /*Styling for 3RD Section */
@@ -145,12 +144,12 @@ body {
     padding: 40px;
 }
 
-.subSection {
+.subSection2 {
     width: 85%;
     margin: auto;
 }
 
-.subSection h2 {
+.subSection2 h2 {
     font-size: 2.5em;
     text-align: left;
 }
@@ -173,4 +172,14 @@ body {
     border-radius: 15px;
     width: 50%;
     height: 17em;
+}
+
+.boxes h3 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.boxes p {
+    font-weight: 300;
 }
